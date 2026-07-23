@@ -1,12 +1,12 @@
+---
 FORESTGAME
+---
 by anon-aardvark
 
 
 Note: pressing anything other than the given options WILL crash the program!!!
 
----------------
 anything past this point is for nerds, brainiacs, know-it-alls, bookworms, or for people who want to know how the game works but they don't know python
----------------
 
 file management:
 type 'save' at start to enter file managment (load, delete)
