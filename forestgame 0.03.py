@@ -18,7 +18,7 @@ def ask(question):
     return answer
 
 
-ask("FORESTGAME v0.02\nby anon-aardvark\n\nEnter anything to play")
+ask("FORESTGAME v0.03\nby anon-aardvark\n\nEnter anything to play")
 
 
 def choice_1():
@@ -31,6 +31,8 @@ def choice_1():
             if choice == "1":
                 inventory.append("axe")
                 inventory.append("loaf of bread")
+                choice_0()
+            elif choice == "2":
                 choice_0()
     elif choice == "2":
         choice_2()
@@ -93,7 +95,10 @@ def choice_3():
 
 
 def choice_0():
-    choice = ask("You are in a dark forest.\nWhat do you want to do?\n\n1: walk around\n2: scavenge\n3: call for help")
+    if not inventory:
+        choice = ask("You are in a dark forest.\nWhat do you want to do?\n\n1: walk around\n2: scavenge\n3: call for help")
+    else:
+        choice = ask("You are in a dark forest.\nWhat do you want to do?\n\n1: walk around\n2: scavenge\n3: call for help\n4: check inventory")
     if choice == "1":
         if "axe" in inventory:
             if random.randint(1, 4) == 1:
@@ -112,6 +117,9 @@ def choice_0():
         choice_3()
     elif choice == "3":
         ask("You scream, but nobody hears you.\nPress anything to move on.")
+        choice_0()
+    elif choice == "4" and inventory:
+        ask(list(inventory), "press anything to move on")
         choice_0()
 
 
