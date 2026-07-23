@@ -14,3 +14,11 @@ type 'load' to load, 'delete' to delete file
 when deleting, enter the number shown to delete the save
 saves can be overwritten if you start a new game (by starting without going 'save' 'load')
 if you don't have a save file named 'forestgamesave.json in the SAME folder as the file, the game will not say you don't have a save file
+
+the game uses these whatchamacallits:
+- json
+- random
+- os
+- sys
+
+it also was made in python 3.14.6 if you wanted to know
