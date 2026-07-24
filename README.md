@@ -5,6 +5,7 @@ by anon-aardvark
 
 
 Note: pressing anything other than the given options WILL crash the program!!!
+For now I don't care to fix this, but I know it's a problem and you should be careful with what you type!!!
 
 anything past this point is for nerds, brainiacs, know-it-alls, bookworms, or for people who want to know how the game works but they don't know python
 
