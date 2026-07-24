@@ -10,10 +10,12 @@ anything past this point is for nerds, brainiacs, know-it-alls, bookworms, or fo
 
 file management:
 type 'save' at start to enter file managment (load, delete)
-type 'load' to load, 'delete' to delete file
+type 'load' to load, 'delete' to delete file, 'update' to update your 0.04/5 save
 when deleting, enter the number shown to delete the save
 saves can be overwritten if you start a new game (by starting without going 'save' 'load')
+when updating, simply press 1 and it'll do the work for you
 if you don't have a save file named 'forestgamesave.json in the SAME folder as the file, the game will not say you don't have a save file
+
 
 the game uses these whatchamacallits:
 - json
@@ -21,5 +23,6 @@ the game uses these whatchamacallits:
 - os
 - sys
 - time
+
 
 if you want to know, the update system basically loads all the info and puts it back with the addition of fire_health and fire_last_time
