@@ -20,5 +20,6 @@ the game uses these whatchamacallits:
 - random
 - os
 - sys
+- time
 
-it also was made in python 3.14.6 if you wanted to know
+if you want to know, the update system basically loads all the info and puts it back with the addition of fire_health and fire_last_time
